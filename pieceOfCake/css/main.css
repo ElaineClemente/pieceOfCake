@@ -1,0 +1,217 @@
+/*
+bgColorInput:#f0f0f0;
+borderColor:#c3c3c3
+color:#313439
+
+font-family: 'Catamaran', sans-serif;
+<link href="https://fonts.googleapis.com/css?family=Catamaran:100,300,400,700" rel="stylesheet">
+@import url('https://fonts.googleapis.com/css?family=Catamaran:100,300,400,700')
+*/
+
+body {
+    
+    
+	}
+
+.container{
+	margin:0 auto;
+	width:95%;
+	font-size:18px;
+}
+
+p, blockquote, hr, pre, ol, ul, dl, table, fieldset, figure, address, form {
+  margin-bottom: 16px; }
+
+.map-form-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+label {
+  display: block;
+  color: #313439;
+  margin-bottom: 4px;
+  font-size: 20px; 
+	
+}
+
+input[type="text"]
+{
+  display: block;
+  width: 50%;
+  
+  font-size: 15px;
+  height: 30px;
+  vertical-align: middle;
+  background-color: #f0f0f0;
+  border: 1px solid #c3c3c3;
+  border-radius: 3px;
+  margin: 1px 0px 10px 0px; 
+	
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  vertical-align: middle;
+  position: relative;
+  bottom: 0.15rem;
+  font-size: 115%;
+  margin-right: 3px; 
+  display:inline-block;
+  width: auto;
+  height: auto;
+  padding: 10px; 
+}
+
+input[type="search"],
+input.search {
+  background-repeat: no-repeat;
+  background-position: 8px 53%;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="#000" fill-opacity="0.4" d="M14.891,14.39l-0.5.5a0.355,0.355,0,0,1-.5,0L9.526,10.529a5.3,5.3,0,1,1,2.106-4.212,5.268,5.268,0,0,1-1.1,3.21l4.362,4.362A0.354,0.354,0,0,1,14.891,14.39ZM6.316,2.418a3.9,3.9,0,1,0,3.9,3.9A3.9,3.9,0,0,0,6.316,2.418Z"/></svg>');
+  padding-left: 32px; 
+}
+textarea{
+ font-family: 'Catamaran', sans-serif;
+ font-size: 15px;
+ width:50%;
+ background-color: #f0f0f0;
+ border: 1px solid #c3c3c3;
+ border-radius: 5px;
+ margin: 0 12px; 
+}
+
+
+label.checkbox, label.radio {
+  display: block;
+  margin-right: 16px;
+     text-transform: capitalize;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.8;
+    cursor: pointer;
+   }
+
+
+fieldset {
+  font-family: 'Catamaran', sans-serif;
+  border: 1px solid #c3c3c3;
+  padding: 1rem;
+  margin:2rem 0;
+  color: #313439;
+	width:50%;
+}
+fieldset label, fieldset input{
+	margin-left: 15px;
+	line-height: 1.8;
+}
+
+.width50{
+	width:50%;
+}
+
+
+.required {
+  position: relative;
+  top: 1px;
+  font-weight: bold;
+  color: #f03c69;
+  font-size: 110%;
+}
+
+
+.code {
+    color: gray;
+    background: #e0e1e1;
+    display: inline-block;
+}
+
+/*commented ,.button*/
+button {
+  
+  font-size: 15px;
+  color: #fff;
+  background-color: #06f;
+  border-radius: 3px;
+  min-height: 30px;
+  padding: 5px 10px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 18px;
+  border: 1px solid #c3c3c3 ;
+  vertical-align: middle;
+	margin:10px;
+  }
+
+/*removed css for ,.button:hover*/
+
+button:hover {
+  outline: none;
+  text-decoration: none;
+  color: #000;
+  background-color: #cce0ff;
+}
+
+pre {
+  font-size: 87.5%; }
+
+pre,
+pre code {
+  background: #ededed;
+  padding: 0;
+  top: 0;
+  display: block;
+  line-height: 20px;
+  white-space: pre-wrap;
+}
+
+pre {
+  padding: 1rem; 
+  margin-top:-20px;
+}
+h3 p:first-child{
+	padding: 100px;
+}
+
+/*Table css*/
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  max-width: 100%;
+  font-size: 18px;
+  line-height: 24px; 
+}
+
+table caption {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  color: #676b72; }
+th {
+  text-align: left;
+  font-weight: 700;
+  vertical-align: bottom; }
+
+td {
+	vertical-align: top; }
+
+table.bordered td,
+table.bordered th {
+  border: 1px solid #ccc; }
+
+table.bordered td:first-child,
+table.bordered th:first-child,
+table.striped td:first-child,
+table.striped th:first-child {
+  padding-left: 2rem; }
+
+table.bordered td:last-child,
+table.bordered th:last-child,
+table.striped td:last-child,
+table.striped th:last-child {
+  padding-right: 1rem; }
+
+table.striped tr:nth-child(odd) td {
+  background: #e8e8e8; }
