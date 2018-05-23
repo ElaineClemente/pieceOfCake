@@ -1,55 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Tables Documentation</title>
-    <link rel="stylesheet" href="../css/main.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,300,400,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+
+    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../js/fontawesome-all.min.js"></script>
+
 </head>
-  
+
 <body>
- <div class="container">
-	 <h1>Tables</h1>
-      <p>Table Description
-	</p>
-  	<ul>
-  		<li><a href="#basic">Basic</a></li>
-  		<li><a href="#bordered">Bordered</a></li>
-  		<li><a href="#striped">Striped</a></li>
-   	</ul>
-	<!--   **************************Basic****************************************-->
-	<h3 id="basic">Basic Table</h3>
-	<p>A simple HTML table, containing three columns and three rows:</p>
-<div class="map-form-item">
-<table>
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th> 
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Ashley</td>
-    <td>Kim</td>
-    <td>15</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>34</td>
-  </tr>
-  <tr>
-    <td>Bella</td>
-    <td>Kim</td>
-    <td>45</td>
-  </tr>
-  <tr>
-  <td colspan="2">Total Points</td>
-  <td>180</td>
-  </tr>
-</table>
-   		<!--Display code-->
- <h3>Code</h3>
-<pre>
+
+    <div class="poc-main">
+        <header class="poc-header">
+            <h1 class="poc-fl-l logo-header">
+                <a href="../index.html">
+                    <img class="poc-vert-align-middle" src="../images/poc_small.png" alt="Piece of Cake" >
+                </a>
+            </h1>
+            <ul class="poc-ul-hor poc-fl-r poc-sm-disp-none">
+                <li class="poc-pv2">
+                    <i class="fab fa-github fa-2x"></i>
+                </li>
+                <li class="poc-pv2">
+                    <a href="" class="poc-button poc-button-big">
+                        Download
+                    </a>
+                </li>
+            </ul>
+
+            <input class="poc-menu-btn" type="checkbox" id="poc-menu-btn" />
+            <label class="poc-menu-icon" for="poc-menu-btn"><span class="poc-navicon"></span></label>
+
+            <ul class="poc-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="documentation.html">Documentation</a></li>
+                <li><a href="">Examples</a></li>
+            </ul>
+
+        </header>
+        <div class="poc-flex-row">
+            <aside class="poc-col-12 poc-col-l-3">
+                <nav class="">
+                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Accordions</a>
+                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Border</a>
+                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Buttons</a>
+                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Clear-Fix</a>
+                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Container</a>
+                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Colors</a>
+                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Display</a>
+                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Dropdowns</a>
+                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Fonts</a>
+                    <a href="forms.html" class="poc-ph6 poc-pv1 poc-db">POC Forms</a>
+                    <a href="grid.html" class="poc-ph6 poc-pv1 poc-db">POC Grid</a>
+                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Icons</a>
+                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Images</a>
+                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Lists</a>
+                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Navigation</a>
+                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC No-print</a>
+                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Margin</a>
+                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Padding</a>
+                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Quotes</a>
+                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Round</a>
+                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Sidebar</a>
+                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Slider</a>
+                    <a href="tables.html" class="poc-ph6 poc-pv1 poc-db">POC Tables</a>
+                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Text</a>
+                </nav>
+            </aside>
+
+            <section class="poc-col-12 poc-col-l-9">
+
+                <div class="poc-row">
+
+                    <div class="poc-content">
+                        <h1>Tables</h1>
+                        <p>Table Description
+                        </p>
+                        <ul>
+                            <li><a href="#basic">Basic</a></li>
+                            <li><a href="#bordered">Bordered</a></li>
+                            <li><a href="#striped">Striped</a></li>
+                        </ul>
+                        <!--   **************************Basic****************************************-->
+                        <h3 id="basic">Basic Table</h3>
+                        <p>A simple HTML table, containing three columns and three rows:</p>
+                        <div class="map-form-item">
+                            <table>
+                                <tr>
+                                    <th>Firstname</th>
+                                    <th>Lastname</th>
+                                    <th>Age</th>
+                                </tr>
+                                <tr>
+                                    <td>Ashley</td>
+                                    <td>Kim</td>
+                                    <td>15</td>
+                                </tr>
+                                <tr>
+                                    <td>Eve</td>
+                                    <td>Jackson</td>
+                                    <td>34</td>
+                                </tr>
+                                <tr>
+                                    <td>Bella</td>
+                                    <td>Kim</td>
+                                    <td>45</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">Total Points</td>
+                                    <td>180</td>
+                                </tr>
+                            </table>
+                            <!--Display code-->
+                            <h3>Code</h3>
+                            <pre>
 &lt;div class="map-form-item"&gt;
 &lt;table style="width:50%"&gt;
   &lt;tr&gt;
@@ -79,47 +149,48 @@
 &lt;table&gt;
 &lt;div&gt;
 </pre>
-        
-</div> <!--end of map-for-item-->	
-   
-<!--   ********************BORDERED TABLE **************************-->
-       <h3 id="border">Bordered Table</h3>
-	   <p>The following HTML table will be displayed with borders around the table cells:</p>
-		<div class="map-form-item">
-			<table class="bordered">
-                <thead>
-                    <tr>
-                        <th>First Name</th>
-                        <th>Last Name</th>
-                        <th>Age</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                       <td>Ashley</td>
-    					<td>Kim</td>
-    					<td>15</td>
-                    </tr>
-                    <tr>
-                         <td>Eve</td>
-						 <td>Jackson</td>
-    			      	 <td>34</td>
-                    </tr>
-                    <tr>
-                    	 <td>Bella</td>
-						 <td>Kim</td>
- 						 <td>45</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="2">Total points</td>
-                        <td>223</td>
-                    </tr>
-                </tfoot>
-            </table>
-	  <h3>Code</h3>
-   <pre>
+
+                        </div>
+                        <!--end of map-for-item-->
+
+                        <!--   ********************BORDERED TABLE **************************-->
+                        <h3 id="border">Bordered Table</h3>
+                        <p>The following HTML table will be displayed with borders around the table cells:</p>
+                        <div class="map-form-item">
+                            <table class="bordered">
+                                <thead>
+                                    <tr>
+                                        <th>First Name</th>
+                                        <th>Last Name</th>
+                                        <th>Age</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Ashley</td>
+                                        <td>Kim</td>
+                                        <td>15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Eve</td>
+                                        <td>Jackson</td>
+                                        <td>34</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bella</td>
+                                        <td>Kim</td>
+                                        <td>45</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2">Total points</td>
+                                        <td>223</td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                            <h3>Code</h3>
+                            <pre>
 &lt;div class="map-form-item"&gt;
   &lt;table class="bordered"&gt;
 	&lt;thead&gt;
@@ -155,45 +226,46 @@
 	  &lt;table&gt;
 	&lt;div&gt;
    </pre>
-    </div>
-  <!--   ****************************Striped**************************************-->  
-    
-    	<h3 id="striped">Striped</h3>
-    	<p>For zebra-striped tables add a background-color to all even (or odd) table rows:</p>
-    		<div class="map-form-item"><table class="striped">
-                <thead>
-                    <tr>
-                        <th>First Name</th>
-                        <th>Last Name</th>
-                        <th>Points</th>
-                    </tr>
-                </thead>
-               <tbody>
-                    <tr>
-                       <td>Ashley</td>
-    					<td>Kim</td>
-    					<td>15</td>
-                    </tr>
-                    <tr>
-                         <td>Eve</td>
-						 <td>Jackson</td>
-    			      	 <td>34</td>
-                    </tr>
-                    <tr>
-                    	 <td>Bella</td>
-						 <td>Kim</td>
- 						 <td>45</td>
-                    </tr>
-                    <tr>
-                    	 <td>Shreya</td>
-						 <td>Bharat</td>
- 						 <td>25</td>
-                    </tr>
-                </tbody>
-                
-            </table>
-         		<h3>Code</h3>
-<pre>
+                        </div>
+                        <!--   ****************************Striped**************************************-->
+
+                        <h3 id="striped">Striped</h3>
+                        <p>For zebra-striped tables add a background-color to all even (or odd) table rows:</p>
+                        <div class="map-form-item">
+                            <table class="striped">
+                                <thead>
+                                    <tr>
+                                        <th>First Name</th>
+                                        <th>Last Name</th>
+                                        <th>Points</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Ashley</td>
+                                        <td>Kim</td>
+                                        <td>15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Eve</td>
+                                        <td>Jackson</td>
+                                        <td>34</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bella</td>
+                                        <td>Kim</td>
+                                        <td>45</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Shreya</td>
+                                        <td>Bharat</td>
+                                        <td>25</td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                            <h3>Code</h3>
+                            <pre>
 &lt;div class="map-form-item"&gt;&lt;table class="striped"&gt;
   &lt;thead&gt;
 	&lt;tr&gt;
@@ -228,11 +300,30 @@
 &lt;table&gt;
 &lt;div&gt;
 </pre>
-    	</div>
-    
-    
-      
- </div><!-- end of Container-->
-  
+                        </div>
+
+
+
+                    </div>
+                    <!-- end of Container-->
+
+                </div>
+
+            </section>
+        </div>
+        <footer class="poc-pv2">
+            <div>Copyright 2018 - All rights reserved</div>
+            <ul class="poc-ul-hor poc-align-center">
+                <li><span class="poc-bold">POC Team - </span></li>
+                <li>Ashvini Yoganarasimha</li>
+                <li>Elaine Clemente</li>
+                <li>Fagner Bernardo</li>
+                <li>Stephanie Torok</li>
+            </ul>
+        </footer>
+    </div>
+
+
 </body>
+
 </html>
