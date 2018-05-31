@@ -76,7 +76,9 @@ nav
 aside
     background-color: $bodyColor
 
-
+aside nav a:hover
+    background-color: #F8F8F8
+    
 section
 
 .poc-main
@@ -103,6 +105,7 @@ section
     &:hover
             background-color: #67352e
             color: #fff
+            transition: all .4s ease
 
 .poc-button-big
     font-size: 22px
@@ -110,9 +113,11 @@ section
     
 a.primary-button
         border-color: #80072c  
+        background-color: #80072c
+        color: #fff
         &:hover
-            background-color: #80072c
-            color: #fff
+            background-color: #fff
+            color: #80072c
         
 /* End Button */
 
@@ -637,7 +642,7 @@ table.striped tr:nth-child(odd) td
 /* header */
 .poc-header
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1) 
-    position: fixed 
+    //position: fixed 
     width: 100% 
     z-index: 3 
  

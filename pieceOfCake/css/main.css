@@ -61,6 +61,9 @@ h1, h2, h3, h4, h5, h6 {
 aside {
   background-color: #fff8ed; }
 
+aside nav a:hover {
+  background-color: #F8F8F8; }
+
 .poc-main {
   background-color: #fff; }
 
@@ -82,17 +85,20 @@ aside {
   border-radius: 6px; }
   .poc-button:hover {
     background-color: #67352e;
-    color: #fff; }
+    color: #fff;
+    transition: all 0.4s ease; }
 
 .poc-button-big {
   font-size: 22px;
   padding: 8px 40px; }
 
 a.primary-button {
-  border-color: #80072c; }
+  border-color: #80072c;
+  background-color: #80072c;
+  color: #fff; }
   a.primary-button:hover {
-    background-color: #80072c;
-    color: #fff; }
+    background-color: #fff;
+    color: #80072c; }
 
 /* End Button */
 /* Alingn text */
@@ -569,7 +575,6 @@ table.striped tr:nth-child(odd) td {
 /* header */
 .poc-header {
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
-  position: fixed;
   width: 100%;
   z-index: 3; }
 

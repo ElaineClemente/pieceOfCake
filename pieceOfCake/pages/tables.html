@@ -11,6 +11,7 @@
 
     <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="../js/fontawesome-all.min.js"></script>
+    <script type="text/javascript" src="../js/include.js"></script>
 
 </head>
 
@@ -18,60 +19,11 @@
 
     <div class="poc-main">
         <header class="poc-header">
-            <h1 class="poc-fl-l logo-header">
-                <a href="../index.html">
-                    <img class="poc-vert-align-middle" src="../images/poc_small.png" alt="Piece of Cake" >
-                </a>
-            </h1>
-            <ul class="poc-ul-hor poc-fl-r poc-sm-disp-none">
-                <li class="poc-pv2">
-                    <i class="fab fa-github fa-2x"></i>
-                </li>
-                <li class="poc-pv2">
-                    <a href="" class="poc-button poc-button-big">
-                        Download
-                    </a>
-                </li>
-            </ul>
-
-            <input class="poc-menu-btn" type="checkbox" id="poc-menu-btn" />
-            <label class="poc-menu-icon" for="poc-menu-btn"><span class="poc-navicon"></span></label>
-
-            <ul class="poc-menu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="documentation.html">Documentation</a></li>
-                <li><a href="">Examples</a></li>
-            </ul>
-
+            <div w3-include-html="../includes/header.html"></div>
         </header>
         <div class="poc-flex-row">
             <aside class="poc-col-12 poc-col-l-3">
-                <nav class="">
-                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Accordions</a>
-                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Border</a>
-                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Buttons</a>
-                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Clear-Fix</a>
-                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Container</a>
-                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Colors</a>
-                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Display</a>
-                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Dropdowns</a>
-                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Fonts</a>
-                    <a href="forms.html" class="poc-ph6 poc-pv1 poc-db">POC Forms</a>
-                    <a href="grid.html" class="poc-ph6 poc-pv1 poc-db">POC Grid</a>
-                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Icons</a>
-                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Images</a>
-                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Lists</a>
-                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Navigation</a>
-                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC No-print</a>
-                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Margin</a>
-                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Padding</a>
-                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Quotes</a>
-                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Round</a>
-                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Sidebar</a>
-                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Slider</a>
-                    <a href="tables.html" class="poc-ph6 poc-pv1 poc-db">POC Tables</a>
-                    <a href="#" class="poc-ph6 poc-pv1 poc-db">POC Text</a>
-                </nav>
+                <div w3-include-html="../includes/sidebarmenu.html"></div>
             </aside>
 
             <section class="poc-col-12 poc-col-l-9">
@@ -312,16 +264,16 @@
             </section>
         </div>
         <footer class="poc-pv2">
-            <div>Copyright 2018 - All rights reserved</div>
-            <ul class="poc-ul-hor poc-align-center">
-                <li><span class="poc-bold">POC Team - </span></li>
-                <li>Ashvini Yoganarasimha</li>
-                <li>Elaine Clemente</li>
-                <li>Fagner Bernardo</li>
-                <li>Stephanie Torok</li>
-            </ul>
+            <div w3-include-html="../includes/footer.html"></div>
         </footer>
     </div>
+
+
+
+    <script>
+        includeHTML();
+
+    </script>
 
 
 </body>
