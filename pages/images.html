@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Tables Documentation</title>
+    <title>Poc Documentation - Images</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="../css/reset.css">
@@ -22,214 +22,44 @@
             <div w3-include-html="../includes/header.html"></div>
         </header>
         <div class="poc-flex-row">
-            <aside class="poc-col-12 poc-col-l-3">
-                <div w3-include-html="../includes/sidebarmenu.html"></div>
-            </aside>
+        <aside class="poc-col-12 poc-col-l-3">
+            <div w3-include-html="../includes/sidebarmenu.html"></div>
+        </aside>
 
-            <section class="poc-col-12 poc-col-l-9">
-
-                <div class="poc-row">
-
-                    <div class="poc-content">
-
-                        <h1>Forms</h1>
-                        <p>HTML Forms are one of the main points of interaction between a user and a web site or application. This module provides a series of articles that will help you master HTML forms.
-                        </p>
+        <section class="poc-col-12 poc-col-l-9">
+            <div class="poc-row">
+                <div class="poc-content">
+                    <h1>Images</h1>
+                    <p>Images can make your website a lot more interesting and appealing. Here are some examples how POC likes to style them.</p>
+<!--
                         <ul>
-                            <li><a href="#input">Input Field</a></li>
-                            <li><a href="#textarea">Textarea</a></li>
+                            <li></li>
+                            <li></li>
                             <li><a href="#checkbox">Checkbox</a></li>
                             <li><a href="#radio">Radio button</a></li>
                             <li><a href="#fieldset">Fieldset</a></li>
                             <li><a href="#dropdown">Dropdown</a></li>
                             <li><a href="#search">Search</a></li>
                         </ul>
-                        <!--   **************************SINGLE LINE INPUT****************************************-->
-                        <h3 id="input">Input's field</h3>
-                        <p>Here's a standard input field with type set as text. Label serves as input's label. Here are text input fields are, one with a placeholder and another one disabled.</p>
-                        <div class="map-form-item">
-                            <label>First Name <span class="required">*</span></label>
-                            <input type="text" class="width50" placeholder="John Smith">
-
-                            <label>Last Name</label>
-                            <input type="text" class="width50">
-
-                            <label>Address </label>
-                            <input type="text" class="width50">
-                            <!--Display code-->
-                            <h3>Code</h3>
-                            <pre>
-	&lt;div class="map-form-item" &gt;
-		&lt;label&gt;First Name &lt;span class="required" &gt; * &lt;span&gt;&lt;label&gt;
-		&lt;input type="text" class="width50" placeholder="John Smith"&gt;
-
-		&lt;label>Last Name &gt;label &gt;
-		&lt;input type="text" class="width50"&gt;
-
-		&lt;label>Address &lt;label &gt;
-		&lt;input type="text" class="width50"&gt;
-	&lt;div&gt;
- </pre>
-
-                        </div>
-                        <!--end of map-for-item-->
-
-                        <!--   ********************MULTILINE INPUT**********************************************-->
-                        <h3 id="textarea">Textarea</h3>
-                        <p>This is used when the user is required to give details that may be longer than a single sentence.
-                        </p>
-                        <div class="map-form-item">
-                            <label>Comments/Message:</label>
-                            <textarea rows="6"></textarea>
-
-                            <h3>Code</h3>
-                            <pre>
-   	&lt;div class="map-form-item"&gt;
-	   &lt;label&gt;Comments/Message:&lt;label&gt;
-	   &lt;textarea rows="6"&gt;&lt;textarea&gt;
-	&lt;div&gt;
-   </pre>
-                        </div>
-                        <!--   ****************************CHECKBOX**************************************-->
-
-                        <h3 id="checkbox">Checkbox</h3>
-                        <p>Input elements of type checkbox are rendered by default as square boxes that are checked (ticked) when activated. They allow you to select single values or multiple values for submission in a form.</p>
-                        <div class="map-form-item">
-                            <label class="checkbox">
-         	 	<input type="checkbox">Check 1</label>
-                            <label class="checkbox">
-          		<input type="checkbox">Check 2</label>
-                            <label class="checkbox">
-          		<input type="checkbox">Check 3</label>
-                            <label class="checkbox">
-          		<input type="checkbox">Check 4</label>
-                            <h3>Code</h3>
-                            <pre>
-	&lt;div class="map-form-item"&gt;
-	  &lt;label class="checkbox"&gt;
-	   &lt;input type="checkbox"&gt;Check 1&lt;label&gt;
-	  &lt;label class="checkbox"&gt;
-	   &lt;input type="checkbox"&gt;Check 2&lt;label&gt;
-	  &lt;label class="checkbox"&gt;
-	   &lt;input type="checkbox"&gt;Check 3&lt;label&gt;
-	  &lt;label class="checkbox"&gt;
-	   &lt;input type="checkbox"&gt;Check 4&lt;label&gt;
-	&lt;div&gt;
-</pre>
-                        </div>
+-->
 
 
-                        <!--   ****************************Radio button**************************************-->
+<!--   ********************************* -->
+            <div class="map-form-item">
+                <h3>Code</h3>
+                <pre>
+        &lt;div class="map-form-item"&gt;
+           &lt;label&gt;Comments/Message:&lt;label&gt;
+           &lt;textarea rows="6"&gt;&lt;textarea&gt;
+        &lt;div&gt;
+        </pre>
 
-                        <h3 id="radio">Radio</h3>
-                        <p>A radio button is a graphical control element that allows the user to choose only one of a predefined set of mutually exclusive options.</p>
-                        <div class="map-form-item">
-                            <input type="radio" name="boolean" checked>Yes
-                            <input type="radio" name="boolean">No
-                            <input type="radio" name="boolean">N/A
-                            <h3>Code</h3>
-                            <pre>
-          &lt;div class="map-form-item"&gt;
-          	&lt;input type="radio" name="boolean" checked&gt;Yes
-          	&lt;input type="radio" name="boolean"&gt;No
-          	&lt;input type="radio" name="boolean"&gt;N/A
-          &lt;div&gt;
-		</pre>
-                        </div>
+            </div> <!-- end map-form-item-->
+              </div> <!-- end poc-content-->
+                </div> <!-- end poc-row-->
 
-
-                        <!--   ****************************FIELD SET**************************************-->
-
-                        <h3 id="fieldset">Fieldset</h3>
-                        <p>The HTML fieldset element is used to group several controls as well as label within a web form.</p>
-
-                        <div class="map-form-item">
-                            <fieldset>
-                                <legend>Login data</legend>
-
-                                <label>Email</label>
-                                <input type="email" name="user-email" class="width50">
-                                <label>Password</label>
-                                <input type="password" name="user-password" class="width50">
-                                <div>
-                                    <button>SignIn</button>
-                                    <button class="button secondary outline">Cancel</button>
-                                </div>
-                            </fieldset>
-                            <h3>Code</h3>
-                            <pre>
-	   &lt;div class="map-form-item"&gt;
-		&lt;fieldset&gt;
- 		 &lt;legend&gt;Login data&lt;legend&gt;
-			&lt;label&gt;Email&lt;label&gt;
-			&lt;input type="email" name="user-email" class="width50"&gt;
-			&lt;label&gt;Password&lt;label&gt;
-			&lt;input type="password" name="user-password" class="width50"&gt;
-			&lt;div&gt;
-			&lt;button&gt;SignIn&lt;button&gt;
-			&lt;button class="button secondary outline"&gt;Cancel&lt;button&gt;
-			&lt;div&gt;
-  	&lt;fieldset&gt;
-	&lt;div&gt;
-  	</pre>
-                        </div>
-
-
-                        <!--   ****************************DROPDOWN*************************************-->
-
-                        <h3 id="dropdown">Dropdown</h3>
-                        <p>This is used to create a dropdown list</p>
-                        <p>The select element is used to create a dropdown list, the option tag is used inside select element to define the options list.</p>
-                        <div class="map-form-item">
-                            <label>Month</label>
-                            <select>
-				<option value="choose">-Select month-</option>
-				<option value="jan">January</option>
-				<option value="feb">February</option>
-				<option value="mar">March</option>
-				<option value="apr">April</option>
-				<option value="may">May</option>
-			</select>
-                            <h3>Code</h3>
-                            <pre>
-	&lt;div class="map-form-item"&gt;
-		&lt;label&gt;Month&lt;label&gt;
-		&lt;select&gt;
-		  &lt;option value="choose"&gt;-Select month-&lt;option&gt;
-		  &lt;option value="jan"&gt;January&lt;option&gt;
-		  &lt;option value="feb"&gt;February&lt;option&gt;
-		  &lt;option value="mar"&gt;March&lt;option&gt;
-		  &lt;option value="apr"&gt;April&lt;option&gt;
-		  &lt;option value="may"&gt;May&lt;option&gt;
-		&lt;select&gt;
-	 &lt;div&gt;
-	</pre>
-
-                        </div>
-
-                        <!--   **************************SEARCH****************************************-->
-                        <h3 id="search">Search</h3>
-                        <p> Input elements of type "search" are text fields designed for the user to enter search queries into</p>
-                        <div class="map-form-item">
-                            <input type="text" class="search" placeholder="Search it">
-
-                            <h3>Code</h3>
-                            <pre>
-		&lt;form class="form"&gt;
-		&lt;div class="form-item"&gt;
-			&lt;input type="text" class="search" placeholder="Search it"&gt;
-		&lt;div&gt;
-	&lt;form&gt;
-	  </pre>
-                        </div>
-
-                    </div>
-                    <!-- end of Container-->
-
-                </div>
-
-            </section>
-        </div>
+        </section>
+        </div> <!-- end poc-flex-row-->
 
         <footer class="poc-pv2">
             <div w3-include-html="../includes/footer.html"></div>
