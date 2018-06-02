@@ -31,19 +31,10 @@
   width: 90%; }
 
 .imgOverlay, .imgOverlayHover {
-  display: block;
-  float: left;
+  display: inline-block;
   width: 49%; }
 
 .imgOverlay {
-  margin-right: 2%; }
-
-.imgOverlayHover {
-  float: right;
-  margin-bottom: 10px; }
-  .imgOverlayHover:after {
-    content: "";
-    display: block;
-    clear: both; }
+  margin-right: 1%; }
 
 /*# sourceMappingURL=myStyling.css.map */
