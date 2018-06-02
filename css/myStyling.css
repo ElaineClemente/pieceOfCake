@@ -1,0 +1,49 @@
+.cow {
+  width: 49%; }
+
+.deer {
+  width: 49%;
+  margin-right: 1%; }
+
+.imgCircle {
+  width: 36%;
+  height: auto; }
+
+.imgRounded {
+  width: 55%;
+  height: auto;
+  margin-left: 3%; }
+
+.respGallery {
+  width: 100%; }
+
+@media (min-width: 480px) {
+  .respGallery {
+    width: 49%;
+    margin: 6px 0; } }
+@media (min-width: 768px) {
+  .respGallery {
+    padding: 0 5px;
+    float: left;
+    width: 23%; } }
+.gallery {
+  margin: 0 auto;
+  width: 90%; }
+
+.imgOverlay, .imgOverlayHover {
+  display: block;
+  float: left;
+  width: 49%; }
+
+.imgOverlay {
+  margin-right: 2%; }
+
+.imgOverlayHover {
+  float: right;
+  margin-bottom: 10px; }
+  .imgOverlayHover:after {
+    content: "";
+    display: block;
+    clear: both; }
+
+/*# sourceMappingURL=myStyling.css.map */
