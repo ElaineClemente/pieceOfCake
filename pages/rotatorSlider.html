@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Poc Documentation - Image Sliders</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/pocRotator.css">
+    <link rel="stylesheet" href="../css/rotating-slider.min.css">
+    <link rel="stylesheet" href="../css/myStyling.css">
+
+    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../js/fontawesome-all.min.js"></script>
+    <script type="text/javascript" src="../js/include.js"></script>
+    <script type="text/javascript" src="../js/jquery.rotating-slider.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="poc-main">
+        <header class="poc-header">
+            <div w3-include-html="../includes/header.html"></div>
+        </header>
+        <div class="poc-flex-row">
+        <aside class="poc-col-12 poc-col-l-3">
+            <div w3-include-html="../includes/sidebarmenu.html"></div>
+        </aside>
+
+        <section class="poc-col-12 poc-col-l-9">
+            <div class="poc-row">
+                <div class="poc-content">
+
+<h1>Cool Rotator Slider</h1>
+<p>This cool slider with a <a class="textLink" href="https://opensource.org/licenses/MIT" target="_blank">MIT licence</a> holds six images. To make this slider work add the id "pocRotator" to your section tag that wraps the HTML code from below.</p>
+<p>Warning: DO NOT change any of the classes within the code or the slider will not work.</p>
+
+<section id="pocRotator">
+    <div class="rotating-slider">
+  <ul class="slides">
+    <li>
+      <div class="inner">
+        <h2>Slide 1</h2>
+        <p>This is a cool rotator plugin.</p>
+      </div>
+    </li>
+    <li>
+      <div class="inner"></div>
+    </li>
+    <li>
+      <div class="inner">
+        <h2>Slide 2</h2>
+        <p>This is a subtitle for slide 2</p>
+      </div>
+    </li>
+    <li>
+      <div class="inner"> </div>
+    </li>
+    <li>
+      <div class="inner">
+        <h2>Slide 3</h2>
+        <p>This is slide 3</p>
+      </div>
+    </li>
+    <li>
+      <div class="inner">
+        <h2>Slide 4</h2>
+        <p>This is a subtitle for slide 4</p>
+      </div>
+    </li>
+  </ul>
+</div>
+</section> <!-- end section rotator -->
+
+<div class="map-form-item">
+                <h3>HTML Code</h3>
+                <pre>
+        &lt;section id="pocRotator">
+            &lt;div class="rotating-slider">
+              &lt;ul class="slides">
+                &lt;li>
+                  &lt;div class="inner">
+                    &lt;h2>Title&lt;/h2>
+                    &lt;p>Your desired subtitle goes here&lt;/p>
+                  &lt;/div>
+                &lt;/li>
+                &lt;li>
+                  &lt;div class="inner">&lt;/div>
+                &lt;/li>
+                &lt;li>
+                  &lt;div class="inner">
+                    &lt;h2>Title Slide 3&lt;/h2>
+                    &lt;p>Your desired subtitle goes here&lt;/p>
+                  &lt;/div>
+                &lt;/li>
+                &lt;li>
+                  &lt;div class="inner"> &lt;/div>
+                &lt;/li>
+                &lt;li>
+                  &lt;div class="inner">&lt;/div>
+                &lt;/li>
+                &lt;li>
+                  &lt;div class="inner">
+                    &lt;h2>Slide 6&lt;/h2>
+                    &lt;p>Your desired subtitle goes here&lt;/p>
+                  &lt;/div>
+                  &lt;/li>
+              &lt;/ul>
+            &lt;/div>
+        &lt;/section> </pre>
+
+            </div> <!-- end map-form-item-->
+
+
+
+
+<h3 class="poc-apTop">Next Steps</h3>
+
+<p>Next, add the following files from your downloaded POC folder to your root folder and create the links for them. These are the files you will need:</p>
+<p class="rotFiles">jquery.rotating-slider.min.js<br>
+rotating-slider.min.css<br>
+pocRotator.css</p>
+
+<p>These links go into your head tag:</p>
+<div class="map-form-item">
+                <h3>File links</h3>
+                <pre>
+&lt;link rel="stylesheet" href="../css/pocRotator.css">
+&lt;link rel="stylesheet" href="../css/rotating-slider.min.css">
+
+&lt;script type="text/javascript" src="../js/jquery.rotating-slider.min.js">&lt;/script>
+
+         </pre>
+          </div> <!-- end map-form-item-->
+
+<p>The following code snippet is best included just above the closing body tag at the bottom of the page. </p>
+    <div class="map-form-item">
+                <h3>File links</h3>
+                <pre>
+    &lt;script>
+        $(function(){
+        $('.rotating-slider').rotatingSlider({
+		slideHeight : Math.min(360, window.innerWidth -80),
+		slideWidth : Math.min(480, window.innerWidth -80),
+	    });
+        });
+    &lt;/script>
+         </pre>
+            </div> <!-- end map-form-item-->
+
+    <h3 class="poc-apTop">Final Step</h3>
+
+<p>The final step will be to include your images. Open the pocRotator.css and include them as background images. If you wish to change the background-color for the entire slider you can do so in the third line of your .css-file.</p>
+
+
+
+              </div> <!-- end poc-content-->
+                </div> <!-- end poc-row-->
+
+        </section> <!-- end poc-col-12-->
+        </div> <!-- end poc-flex-row-->
+
+
+
+        <footer class="poc-pv2">
+            <div w3-include-html="../includes/footer.html"></div>
+        </footer>
+    </div>
+
+    <script>
+        includeHTML();
+    </script>
+
+<script>
+    $(function(){
+    $('.rotating-slider').rotatingSlider({
+		slideHeight : Math.min(360, window.innerWidth -80),
+		slideWidth : Math.min(480, window.innerWidth -80),
+	});
+});
+</script>
+</body>
+
+</html>

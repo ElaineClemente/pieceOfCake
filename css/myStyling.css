@@ -37,4 +37,20 @@
 .imgOverlay {
   margin-right: 1%; }
 
+.rotFiles {
+  padding-left: 20px; }
+
+.poc-apTop {
+  padding-top: 20px; }
+
+.textLink {
+  color: #e34d3b; }
+  .textLink:hover {
+    color: #b4e0cf; }
+
+.mapFormInsert {
+  background-color: #fff8ed;
+  margin: -40px 0 0 0;
+  padding: 0 50px 20px 50px; }
+
 /*# sourceMappingURL=myStyling.css.map */
