@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAEA,aAAa;EACT,MAAM,EAAE,YAAW;;AAEvB,WAAW;EACP,MAAM,EAAE,yBAAwB;;AAEpC,eAAe;EACX,UAAU,EAAE,yBAAwB;;AAExC,kBAAkB;EACd,aAAa,EAAE,yBAAwB;;AAE3C,gBAAgB;EACZ,WAAW,EAAE,yBAAwB;;AAEzC,iBAAiB;EACb,YAAY,EAAE,yBAAwB;;;AAG1C,gBAAgB;EACZ,aAAa,EAAE,GAAG;;AAEtB,6BAA4B;EACxB,aAAa,EAAE,GAAG;;AAEtB,gBAAgB;EACZ,aAAa,EAAE,IAAI;;AAEvB,iBAAiB;EACb,aAAa,EAAE,IAAI",
+"sources": ["../sass/border.sass"],
+"names": [],
+"file": "border.css"
+}
