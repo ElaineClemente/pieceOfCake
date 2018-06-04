@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Poc Documentation - Image Sliders</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/myStyling.css">
+    <link rel="stylesheet" href="../css/helperClasses.css">
+
+
+    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../js/fontawesome-all.min.js"></script>
+    <script type="text/javascript" src="../js/include.js"></script>
+</head>
+
+<body>
+
+    <div class="poc-main">
+        <header class="poc-header">
+            <div w3-include-html="../includes/header.html"></div>
+        </header>
+        <div class="poc-flex-row">
+        <aside class="poc-col-12 poc-col-l-3">
+            <div w3-include-html="../includes/sidebarmenu.html"></div>
+        </aside>
+
+    <section class="poc-col-12 poc-col-l-9">
+    <div class="poc-row">
+    <div class="poc-content">
+        <h1>Helper Classes</h1>
+        <p>POC provides a few additional classes that can be helpful in certain cases.</p>
+        <h3>Quick Float Left</h3>
+        <p>Add class="poc-fl-l" to any element to float it to the left. For example:</p>
+
+               <div class="map-form-item">
+                <h3>Code</h3>
+                <pre>
+        &lt;div class="poc-fl-l">&lt;/div> </pre>
+
+            </div> <!-- end map-form-item-->
+        <h3>Quick Float Right</h3>
+        <p>Add class="poc-fl-r" to any element to float it to the right. For example:</p>
+
+               <div class="map-form-item">
+                <h3>Code</h3>
+                <pre>
+        &lt;div class="poc-fl-r">&lt;/div> </pre>
+
+            </div> <!-- end map-form-item-->
+
+
+        <h3>Clearfix
+        </h3>
+        <p>If you need to clear floated elements all you need to include is an empty div with the ".poc-clearfix" class after the last floated item.</p>
+
+               <div class="map-form-item">
+                <h3>Code</h3>
+                <pre>
+        &lt;div class="poc-clearfix">&lt;/div> </pre>
+
+            </div> <!-- end map-form-item-->
+
+        <h3>No Print - Helper
+        </h3>
+        <p>If you want elements like images to be hidden when printing your website, just add the ".poc-noPrint" class.</p>
+
+               <div class="map-form-item">
+                <h3>Code</h3>
+                <pre>
+        &lt;div class="poc-noPrint">&lt;/div> </pre>
+
+            </div> <!-- end map-form-item-->
+
+
+              </div> <!-- end poc-content-->
+                </div> <!-- end poc-row-->
+
+        </section> <!-- end poc-col-12-->
+        </div> <!-- end poc-flex-row-->
+
+        <footer class="poc-pv2">
+            <div w3-include-html="../includes/footer.html"></div>
+        </footer>
+    </div>
+
+    <script>
+        includeHTML();
+    </script>
+
+</body>
+
+</html>
